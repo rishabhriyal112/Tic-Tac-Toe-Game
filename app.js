@@ -48,12 +48,12 @@ boxes.forEach((box)=> {
         if(turnO){
             box.innerText = "O"
             turnO=false
-            box.style.color="#EEEEEE"
+            box.style.color="blue"
         }
         else{
             box.innerText = "X"
             turnO=true
-            box.style.color = "yellow"
+            box.style.color = "red"
         }
      box.disabled =true
 
