@@ -4,20 +4,30 @@
 }
 
 body{
-    background-color: #FF921C;
+    background-color: rgb(228, 228, 228);
     text-align: center;
 }
 
 h1{
     font-family: sans-serif;
     font-size: 40px;
+    margin-top: 1rem;
 }
 
 .container{
     height: 70vh;
+    width: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(249, 245, 245);
+    border: 1px solid black;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    border-radius: 1rem;
+    margin-left: 70vh;
+    margin-top: 20px;
+    
 }
 
 .game{
@@ -28,34 +38,37 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 1.5vmin;
+    background-color: rgba(249,245,245);
 }
 
 .box{
     height: 18vmin;
     width: 18vmin;
-    border-radius: 1rem;
-    border: none;
-    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    border-radius: 0.3rem;
+    border: 0.5px solid rgb(194, 190, 190);
     font-size: 8vmin;
-    background-color: #4C1F7A;
+    background-color: rgb(228, 228, 228);
     color: #219B9D;
 }
 
 .reset-btn{
     padding: 0.7rem;
     font-size: 1.25rem;
-    background-color: darkred;
+    background-color: rgb(76, 34, 214);
     color: white;
-    border-radius: 1rem;
+    border: none;
+    border-radius: 0.7rem;
+    margin-top: 20px;
 }
 
 .new-btn{
     padding: 0.7rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.25rem;
-    background-color: #4C1F7A;
+    background-color: rgb(76, 34, 214);
     color: white;
-    border-radius: 1rem;
+    border-radius: 0.7rem;
+    border: none;
 }
 
 #msg{
@@ -76,3 +89,4 @@ h1{
 .hide{
     display: none;
 }
+
